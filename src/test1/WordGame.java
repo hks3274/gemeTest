@@ -66,6 +66,7 @@ public class WordGame extends JFrame {
 							lblCehckCnt.repaint();
 							newLabel.setVisible(false);
 							newLabel.setEnabled(false);
+							newLabel.remove(newLabel);
 							txtWord.setText("");
 							checkCnt++;
 							lblCehckCnt.setText("맞힌갯수:" + checkCnt);
